@@ -1,0 +1,12 @@
+{
+  "name": "pkg1",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+  },
+  "engines": {
+    "node": "^18.13",
+    "npm": "^8.19"
+  }
+}
