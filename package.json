@@ -6,11 +6,17 @@
   "workspaces": [
     "./packages/*"
   ],
+  "bin": {
+    "changelog-version": "./scripts/changelog-version.js"
+  },
   "scripts": {
+    "changelog-version": "node ./scripts/changelog-version.js"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
-    "@changesets/cli": "^2.26.2"
+    "@changesets/cli": "^2.26.2",
+    "dotenv": "^16.3.1",
+    "shelljs": "^0.8.5"
   },
   "engines": {
     "node": "^18.13",
