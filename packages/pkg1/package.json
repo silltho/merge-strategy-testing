@@ -1,9 +1,44 @@
 {
   "name": "pkg1",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "private": true,
-  "scripts": {
+  "scripts": {},
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@material-ui/styles": "^4.11.3",
+    "@popperjs/core": "^2.11.7",
+    "eventemitter3": ">=4",
+    "hls.js": "^1.4.0",
+    "i18next": ">=20 <=23.1.0",
+    "i18next-browser-languagedetector": ">=6",
+    "lodash-es": "^4.17.15",
+    "qrcode": "^1.5.3",
+    "react-error-boundary": "^4.0.10",
+    "react-i18next": "^11.0.0",
+    "react-popper": "^2.3.0",
+    "react-query": "^3.34.16",
+    "react-swipeable": "^7.0.0",
+    "react-use": ">=17",
+    "screenfull": "^5.2.0",
+    "styled-components": "^5.2.0",
+    "theoplayer": "4.8.0",
+    "tslib": ">=2.3.1",
+    "typesafe-actions": "^5.1.0",
+    "uuid": ">=3.2.1",
+    "zustand": ">=4"
+  },
+  "devDependencies": {
+    "react": ">=16.14",
+    "react-dom": ">=16.14",
+    "react-is": ">=16.14"
+  },
+  "peerDependencies": {
+    "react": ">=16.14",
+    "react-dom": ">=16.14",
+    "react-is": ">=16.14"
   },
   "engines": {
     "node": "^18.13",

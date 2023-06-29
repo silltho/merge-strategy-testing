@@ -1,10 +1,9 @@
 {
   "name": "pkg2",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "private": true,
-  "scripts": {
-  },
+  "scripts": {},
   "engines": {
     "node": "^18.13",
     "npm": "^8.19"
