@@ -3,9 +3,25 @@
   "version": "0.1.0",
   "description": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "dev": "storybook dev -p 6006"
+  },
   "engines": {
     "node": "^18.13",
     "npm": "^8.19"
+  },
+  "dependencies": {
+    "pkg1": "*"
+  },
+  "devDependencies": {
+    "react": ">=16.14",
+    "react-dom": ">=16.14",
+    "react-is": ">=16.14"
+  },
+  "peerDependencies": {
+    "react": ">=16.14",
+    "react-dom": ">=16.14",
+    "react-is": ">=16.14"
   }
 }

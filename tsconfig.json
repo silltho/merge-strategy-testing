@@ -1,0 +1,17 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "preserveSymlinks": true, // resolve symlinked local modules non-relative (../../core/utils gets resolved as @nativewaves/utils)
+      "target": "esnext", // see https://stackoverflow.com/questions/49218765/typescript-and-iterator-type-iterableiteratort-is-not-an-array-type
+      "skipLibCheck": true, // see https://github.com/aws-amplify/amplify-js/issues/2362#issuecomment-477463661
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": false,
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "exclude": ["**/__tests__/**", "**/node_modules/**"]
+  }
+  
