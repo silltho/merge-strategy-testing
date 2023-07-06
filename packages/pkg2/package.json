@@ -16,12 +16,12 @@
   },
   "devDependencies": {
     "react": ">=16.14",
-    "react-dom": ">=16.14",
+    "react-dom": ">=18.2",
     "react-is": ">=16.14"
   },
   "peerDependencies": {
     "react": ">=16.14",
-    "react-dom": ">=16.14",
+    "react-dom": ">=18.2",
     "react-is": ">=16.14"
   }
 }
